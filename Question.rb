@@ -12,7 +12,7 @@ class Question
   end 
     
   def generate_question 
-    puts "What does #{@value1} #{@operator} #{@value2} ?"
+    "What does #{@value1} #{@operator} #{@value2} ?"
   end  
   def generate_answer
     @answer
